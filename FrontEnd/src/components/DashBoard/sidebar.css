@@ -1,0 +1,20 @@
+/* Add this CSS in your main CSS file or inside a style block in the component */
+/* For mobile devices with a maximum width of 767px */
+@media (max-width: 767px) {
+    .ml-8 {
+      /* Adjust the left margin to position the dropdown */
+      margin-left: 1rem;
+    }
+  
+    .mt-2 {
+      /* Adjust the top margin to position the dropdown */
+      margin-top: 0.5rem;
+    }
+  
+    .ml-8,
+    .mt-2 {
+      /* Apply styles to hide the dropdown initially */
+      display: none;
+    }
+  }
+  
